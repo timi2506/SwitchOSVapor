@@ -1,7 +1,7 @@
 ---
 name: Add Server URL
 about: Add a Public Server URL to the Readme
-title: "[ADD-URL] <Your Server URL here>"
+title: "[ADD-URL] Add Public Server"
 labels: ''
 assignees: timi2506
 
