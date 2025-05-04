@@ -8,11 +8,19 @@ Currently there are no publically hosted Servers available
 [Create an Issue](https://github.com/timi2506/SwitchOSVapor/issues/new?template=add-server-url.md) to add your publically hosted Server to the list!
 
 ## Getting Started
-### Step 1: Clone
+### Step 1: Install Dependencies
+- Install Vapor based on their instructions for either [macOS](https://docs.vapor.codes/install/macos/) or [Linux](https://docs.vapor.codes/install/macos/)
+- Install git
+
+Instructions for Debian and Ubuntu:
+```bash
+sudo apt install git
+```
+### Step 2: Clone
 ```bash
 git clone https://github.com/timi2506/SwitchOSVapor
 ```
-### Step 2: Run and Build
+### Step 3: Run and Build
 First, go into the Project Directory
 ```bash
 cd SwitchOSVapor
