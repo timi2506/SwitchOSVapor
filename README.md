@@ -1,24 +1,36 @@
 # SwitchOSVapor
 
-💧 A project built with the Vapor web framework.
+Server for Generating Game Files for my App "SwitchOS Concept" (Release soon)
+
+## Public Servers
+Currently there are no publically hosted Servers available
+### Want to help out and add your Server?
+[Create an Issue](https://github.com/timi2506/SwitchOSVapor/issues/new?template=add-server-url.md) to add your publically hosted Server to the list!
 
 ## Getting Started
-
-To build the project using the Swift Package Manager, run the following command in the terminal from the root of the project:
+### Step 1: Clone
 ```bash
-swift build
+git clone https://github.com/timi2506/SwitchOSVapor
+```
+### Step 2: Run and Build
+First, go into the Project Directory
+```bash
+cd SwitchOSVapor
 ```
 
-To run the project and start the server, use the following command:
+Then, run the project and start the server, using the following command:
 ```bash
 swift run
 ```
-
-To execute tests, use the following command:
+### Step 3: Profit!
+try making an example request to: 
 ```bash
-swift test
+http://localhost:8080/getJSON?imageURL=https%3A%2F%2Fexample.com%2Fimage&name=Example&contentType=url&content=https%3A%2F%2Fexample.com%2F
 ```
-
+Example with cURL: 
+```bash
+curl "http://localhost:8080/getJSON?imageURL=https%3A%2F%2Fexample.com%2Fimage&name=Example&contentType=url&content=https%3A%2F%2Fexample.com"
+```
 ### See more
 
 - [Vapor Website](https://vapor.codes)
